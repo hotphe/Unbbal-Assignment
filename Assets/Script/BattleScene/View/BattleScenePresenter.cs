@@ -22,6 +22,7 @@ public class BattleScenePresenter : MonoBehaviour
     [SerializeField] private WaveView _waveView;
     [SerializeField] private MythicView _mythicView;
     [SerializeField] private GachaView _gachaView;
+    [SerializeField] private AddCoinEffectPool _addCoinEffectPool;
 
     [Header("In game")]
     [SerializeField] private SlotContainer _slotContainer;
@@ -72,6 +73,7 @@ public class BattleScenePresenter : MonoBehaviour
     private void SetResourceModel()
     {
         _resourceModel = new ResourceModel(_gameData.DefaultCoin, _gameData.DefaultLuckyStone);
+        _resourceModel.OnCoinAdded += HandleCoinAdd;
         _resourceModel.OnCoinChanged += HandleCoinChange;
         _resourceModel.OnLuckyStoneChanged += HandleLuckyStoneChange;
     }
@@ -394,6 +396,10 @@ public class BattleScenePresenter : MonoBehaviour
         AddHero(GetRandomHero(targetGrade));
     }
 
+    private void HandleCoinAdd(int addedCoin)
+    {
+        _addCoinEffectPool.Show(addedCoin);
+    }
     private void HandleCoinChange(int currentCoin)
     {
         _baseView?.UpdateCurrentCoin(currentCoin);

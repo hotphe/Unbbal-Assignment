@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 
 public class ResourceModel
 {
     public int Coin { get; private set; }
     public int LuckyStone { get; private set; }
 
+    public event Action<int> OnCoinAdded;
     public event Action<int> OnCoinChanged;
     public event Action<int> OnLuckyStoneChanged;
 
@@ -16,7 +17,8 @@ public class ResourceModel
 
     public void AddCoin(int value) 
     { 
-        Coin += value; 
+        Coin += value;
+        OnCoinAdded?.Invoke(value);
         OnCoinChanged?.Invoke(Coin);
     }
     public void ReduceCoin(int value) 
