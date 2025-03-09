@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2cf09bcbaacbc4479faed68b3dd1f9e, type: 3}
+  m_Name: HeroData
+  m_EditorClassIdentifier: 
+  _allHeroes:
+    SerializedKvps:
+    - Key: 0
+      Value: {fileID: 1049696509546513201, guid: bdac7885ff2bc3f4eb44d16530da90b5, type: 3}
+      Index: 0
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 1
+      Value: {fileID: 1912834784094510193, guid: 54436347566658642b63d9b0be2cf235, type: 3}
+      Index: 1
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 2
+      Value: {fileID: 2706984186928801302, guid: faab391c8bfe01b4d92ff91e1fac9591, type: 3}
+      Index: 2
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 3
+      Value: {fileID: 8873442700398949917, guid: 462d3f1d099d66a45bc55962846d7221, type: 3}
+      Index: 3
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 4
+      Value: {fileID: 6379115810426560390, guid: 14e57fb862aa22a4db76c2a288dec651, type: 3}
+      Index: 4
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 5
+      Value: {fileID: 2944276676463022489, guid: f2b183ac1b95d0742aa77842f243815b, type: 3}
+      Index: 5
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 6
+      Value: {fileID: 1240962313637354864, guid: 2ef91ad9978423642935428e5454b81d, type: 3}
+      Index: 6
+      IsKeyRepeated: 0
+      IsKeyNull: 0
+    - Key: 7
+      Value: {fileID: 5816390654875288998, guid: 7433fee58484659479f70ed6f614227f, type: 3}
+      Index: 7
+      IsKeyRepeated: 0
+      IsKeyNull: 0

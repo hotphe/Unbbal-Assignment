@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194e0e956df57c04296ef9eed0e1b42e, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  _defaultCoin: 100
+  _defaultLuckyStone: 100
+  _defaultSummonCost: 20
+  _defaultSummonCostIncrease: 2
+  _defaultMaxHeroCount: 20
+  _defaultMaxMonsterCount: 100
+  _defaultWaveClearCoin: 5
+  _defaultWaveAlertTime: 5
+  _defaultRareGachaCost: 1
+  _defaultEpicGachaCost: 2
+  _defaultRareGachaProbability: 0.6
+  _defaultEpicGachaProbability: 0.2
+  _defaultNormalRareReinforceCost: 30
+  _defaultEpicReinforceCost: 50
+  _defaultMythicReinforceCost: 2
+  _defaultNormalRareReinforceCostIncrease: 30
+  _defaultEpicReinforceCostIncrease: 50
+  _defaultMythicReinforceCostIncrease: 1
+  _defaultSellNormal: 12
+  _defaultSellRare: 24
+  _defaultSellEpic: 36
