@@ -21,7 +21,7 @@
 
 MVP 패턴을 사용하여 Model, View, Presenter로 나눠 View와 Model의 결합도를 낮추었습니다. Model의 경우 오프라인으로 구현하는게 목적이므로 Scriptable Object를 활용하여 모델을 구성하였습니다.
 
-Presenter는 각 모델과 View들을 참조하였습니다. View의 경우, 입력(버튼 클릭 등) 및 변화를 이벤트로 구독하는 방식을 사용하여 Presnter를 알지 못하더라도, 작동이 되도록 이벤트 리스너 방식을 사용하였습니다. 
+Presenter는 각 모델과 View들을 참조하였습니다. View의 경우, 입력(버튼 클릭 등) 및 변화를 이벤트로 구독하는 방식을 사용하여 view가 Presenter를 알지 못하더라도, 작동이 되도록 이벤트 리스너 방식을 사용하였습니다. 
 
 따라서 View Class에는 View를 업데이트 하는 코드만 존재하며, 필요한 데이터 가공 처리 및 제공은 Presenter가 담당합니다.
 
